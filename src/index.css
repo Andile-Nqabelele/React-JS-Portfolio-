@@ -287,6 +287,7 @@ h1#contact {
     background-color: #f2f2f2;
     max-width: 100%;
     padding: 0 2em;
+    max-height: max-content;
 }
 
 
@@ -294,8 +295,7 @@ h1#contact {
     border: none;
     outline: none;
     background: none;
-    width: 24em;
-    max-width: 50em;
+    width: 25rem;
     border-bottom: 2px solid black;
     padding: 2em 2rem;
     font-size: 1rem;
@@ -306,23 +306,22 @@ h1#contact {
     border: none;
     outline: none;
     background: none;
-    width: 20em;
+    width: 25rem;
     border-bottom: 2px solid black;
-    padding: 0 2rem;
+    padding: 2em 2rem;
     font-size: 1rem;
     text-transform: uppercase;
 }
 
-textarea {
+/* textarea {
     border: none;
     outline: none;
     background: none;
-    width: 400px;
+    width: 20em;
     border-bottom: 2px solid black;
     padding: 0 2rem;
-    font-size: 1rem;
-    text-transform: uppercase;
-}
+    
+} */
 
 #email::placeholder, #name::placeholder, textarea::placeholder {
     text-transform: uppercase;
@@ -335,7 +334,9 @@ textarea {
     outline: none;
     border-bottom: 2px solid black;
     padding: 2em;
-    min-width: 8em;
+    width: 25rem;
+    font-size: 1rem;
+    text-transform: uppercase;
 }
 
 
@@ -624,6 +625,45 @@ footer#footer {
         align-items: center;
         max-width: 100%;
         height: fit-content;
+    }
+
+    /* .skills {
+        max-width: fit-content;
+    } */
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    #email {
+        border: none;
+        outline: none;
+        background: none;
+        width: 50rem;
+        border-bottom: 2px solid black;
+        padding: 2em 2rem;
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+    
+    #name {
+        border: none;
+        outline: none;
+        background: none;
+        width: 50rem;
+        border-bottom: 2px solid black;
+        padding: 2em 2rem;
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+
+    textarea {
+        background: none;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid black;
+        padding: 2em;
+        width: 50rem;
+        font-size: 1rem;
+        text-transform: uppercase;
     }
 }
 

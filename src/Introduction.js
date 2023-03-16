@@ -7,7 +7,7 @@ function Introduction() {
       <h3 id="hd-center-md">Hello, I Am</h3>
       <h1 id="hd-center-lg">Andile Nqabelele</h1>
       <p id="hd-center-sm">Frontend Web Developer</p>
-      <a href="/#" id="download btn">
+      <a href="resume.pdf" id="download btn" download="resume resume.pdf">
         Download Cv
       </a>
     </section>
